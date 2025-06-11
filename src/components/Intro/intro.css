@@ -1,0 +1,184 @@
+/* #intro {
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 90vw;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+
+}
+.bg{
+    position: absolute;
+    top: -4rem;
+    z-index: -1;
+    right: 0;
+    object-fit: cover;
+    height: 100vh;
+}
+.introContent {
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+.introname {
+    color: yellow;
+}
+.intropara {
+    font-size: medium;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.btn {
+    background: white;
+    margin: 1rem 0;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 2rem;
+}
+.btnImg {
+    object-fit: cover;
+    margin: 0 0.25rem;
+    height: 1rem;
+}
+
+@media screen and (max-width:840px) {
+    .bg {
+        right: -10vw;
+    }
+    .introContent {
+    font-size: 10vw;
+    }
+    .hello{
+        font-size: 4.5vw;
+    }
+    #intro {
+    width: 100vw;
+    max-width: 100vw;
+
+}
+
+}
+
+@media screen and (max-width:550) {
+    .bg {
+        right: -20vw;
+    }
+        #intro {
+    width: 100vw;
+    max-width: 100vw;
+
+}
+} */
+
+.hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.hero img {
+    margin-top: 150px;
+}
+
+.hero h1 {
+    text-align: center;
+    width: 70%;
+    font-size: 90px;
+    font-weight: 600;
+}
+
+.hero h1 span {
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+    width: 50%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.hero-action {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.hero-connect {
+    padding: 25px 45px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+    cursor: pointer;
+}
+
+.hero-resume {
+    padding: 25px 75px;
+    border-radius: 50px;
+    border: 2px solid #FFF;
+    cursor: pointer;
+}
+
+.hero-connect:hover {
+    border: 2px solid white;
+}
+
+.hero-resume:hover {
+    border-color: #B415FF;
+}
+
+@media(max-width:768px) {
+    .hero img {
+        margin-top: 120px;
+        width: 260px;
+    }
+
+    .hero h1 {
+        margin-top: 50px;
+        width: 90%;
+        font-size: 50px;
+    }
+
+    .hero p {
+        width: 60%;
+        font-size: 18px;
+        line-height: 32px;
+        margin: 10px 0px;
+    }
+
+    .hero-action {
+        gap: 16px;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 50px;
+    }
+
+    .hero-connect {
+        padding: 20px 30px;
+        border-radius: 40px;
+    }
+
+    .hero-resume {
+        padding: 20px 50px;
+        border-radius: 40px;
+    }
+
+    /* .hero {
+        margin-right: -200px;
+    } */
+}
