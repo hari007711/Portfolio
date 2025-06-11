@@ -86,9 +86,9 @@
     gap: 35px;
 }
 
-.hero img {
+/* .hero img {
     margin-top: 150px;
-}
+} */
 
 .hero h1 {
     text-align: center;
@@ -140,6 +140,12 @@
 
 .hero-resume:hover {
     border-color: #B415FF;
+}
+
+.heroImage {
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
 }
 
 @media(max-width:768px) {

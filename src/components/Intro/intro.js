@@ -3,7 +3,7 @@ import './intro.css';
 import bg from '../../assets/image.png';
 import { Link } from 'react-scroll';
 import btnImg from '../../assets/hireme.png';
-import profileImg from '../../assets/profile_img.svg';
+import profileImg from '../../assets/profile_img.jpg';
 import { Element } from 'react-scroll';
 
 
@@ -22,7 +22,7 @@ const Intro = () => {
 
         <Element name="home">
             <div className="hero">
-                <img src={profileImg} alt="Profile" />
+                <img className="heroImage" src={profileImg} alt="Profile" />
                 <h1><span>I'm Hari Kumar,</span> Frontend Developer</h1>
                 <p>I am a skilled website designer with experience in creating visually appealing and user friendly websites.</p>
                 <div className="hero-action">

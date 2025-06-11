@@ -9,7 +9,7 @@ const Skills = () => {
         <div id="portfolio">
             <section id="skills">
                 {/* <span className="skill-title">What I do </span> */}
-                <div className="contact-title">
+                <div className="contact-title" style={{ marginBottom: "30px" }}>
                     <h1>What I do</h1>
                     <img src={theme_pattern} alt="Theme" />
                 </div>
